@@ -13,9 +13,9 @@
 
 # Table of Contents
 
-1. [Softwares Required](##Softwares-Required)
-2. [Start Contributing](##Start-Contributing)
-3. [Screenshots](##Screenshots)
+1. [Softwares Required](#Softwares-Required)
+2. [Start Contributing](#Start-Contributing)
+3. [Screenshots](#Screenshots)
 
 ***
 
