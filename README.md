@@ -40,6 +40,7 @@ Visit [here](https://flutter.dev/) to know how to install the mentioned requirem
 
 - Cloning the repository will place a local copy of project on your own machine
 - Copy the URL from the copy to clipboard icon
+
   ![Copy To Clipboard](Screenshots/Click-Copy-Icon.png)
 - Open a terminal and run the following git command :
 
