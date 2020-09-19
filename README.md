@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://dsc-iem.github.io/">
-        <img height=85 src="assets/images/header.jpg">
+        <img height=85 src="assets/images/banner.jpg">
     </a>
 </p>
 
