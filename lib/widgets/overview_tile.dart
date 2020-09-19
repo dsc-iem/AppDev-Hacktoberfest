@@ -18,8 +18,11 @@ class OverviewTile extends StatelessWidget {
         elevation: 0,
         child: Center(
           child: ListTile(
-            leading: ClipOval(
-              child: Image(image: AssetImage(member.profilePath)),
+            leading: CircleAvatar(
+              
+                          child: ClipOval(
+                child: Image(image: AssetImage(member.profilePath)),
+              ),
             ),
             title: Text(member.name),
             subtitle: Text(
