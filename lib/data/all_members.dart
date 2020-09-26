@@ -1,5 +1,5 @@
 /*
-1) This is the only file which you need to edit to cotribute in the development. However, you can always look at other files in the codebase incase you are inquisitive enough.
+1) This is the only file which you need to edit to contribute in the development. However, you can always look at other files in the codebase incase you are inquisitive enough.
 
 2)Now, What to edit in this file?
 All you need is to create one more member object below within the list _members and provide all the details about yourself. Also, before this make sure your profile picture is in the assets/profile folder. 
@@ -35,7 +35,6 @@ class AllMembers {
         githubUrl: 'https://github.com/imkashyap',
         linkedInUrl: 'https://www.linkedin.com/in/rahul-kashyap-230577195/',
         status: 'Working from home'),
-
   ];
 
   static List<Member> get members {
