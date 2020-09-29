@@ -35,6 +35,18 @@ class AllMembers {
         githubUrl: 'https://github.com/imkashyap',
         linkedInUrl: 'https://www.linkedin.com/in/rahul-kashyap-230577195/',
         status: 'Working from home'),
+
+    Member(
+        name: 'Pranjal Mishra',
+        year: '2nd',
+        department: 'Computer Science',
+        profilePath: 'assets/profiles/Pranjalmishra.jpeg',
+        aboutMe:
+        'I am an undergrad student who is passionate about Computer Vision and robotics. Recently developed a keen interest in flutter dev. Looking for opportunities to collaborate',
+        fburl: 'https://www.facebook.com/pranjal.mishra.927',
+        githubUrl: 'https://github.com/Pranjalmishra30',
+        linkedInUrl: 'https://www.linkedin.com/in/pranjal-mishra-3a79b0196/',
+        status: 'Always Learning'),
   ];
 
   static List<Member> get members {
