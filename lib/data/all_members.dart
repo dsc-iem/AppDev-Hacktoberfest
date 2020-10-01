@@ -79,7 +79,8 @@ class AllMembers {
         githubUrl: 'https://github.com/peekaboo5149',
         linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
         status: 'Always Learning'),
-    Member(
+    
+       Member(
         name: 'Omprakash kumar',
         year: '3rd',
         department: 'Electrical & Electronics',
@@ -114,6 +115,17 @@ class AllMembers {
         githubUrl: 'https://github.com/SarvjeetGit',
         linkedInUrl: 'https://www.linkedin.com/in/sarvjeet-kumar-65470a184',
         status: 'Always curious'),
+    
+    Member(
+        name: 'Vineeta Jain',
+        year: '3rd',
+        department: 'Computer Science',
+        profilePath: 'assets/profiles/VineetaJain.jpeg',
+        aboutMe:
+        'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
+        fburl: 'https://www.facebook.com/vineeta.jain.79069',
+        githubUrl: 'https://github.com/Ninjavin',
+        status: 'Bugging'),
   ];
 
   static List<Member> get members {
