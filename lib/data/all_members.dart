@@ -37,7 +37,6 @@ class AllMembers {
         githubUrl: 'https://github.com/imkashyap',
         linkedInUrl: 'https://www.linkedin.com/in/rahul-kashyap-230577195/',
         status: 'Working from home'),
-
     Member(
         name: 'Agung Prabowo',
         year: '1st',
@@ -49,7 +48,6 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
-
     Member(
       name: 'Diksha Dixit',
       year: '3rd',
@@ -62,7 +60,6 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
       status: 'Working from home',
     ),
-
     Member(
         name: 'Pranjal Mishra',
         year: '2nd',
@@ -74,7 +71,6 @@ class AllMembers {
         githubUrl: 'https://github.com/Pranjalmishra30',
         linkedInUrl: 'https://www.linkedin.com/in/pranjal-mishra-3a79b0196/',
         status: 'Always Learning'),
-
     Member(
         name: 'Tanmay Kumar',
         year: '3rd',
@@ -85,7 +81,6 @@ class AllMembers {
         githubUrl: 'https://github.com/peekaboo5149',
         linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
         status: 'Always Learning'),
-
     Member(
         name: 'Omprakash kumar',
         year: '3rd',
@@ -97,7 +92,6 @@ class AllMembers {
         githubUrl: 'https://github.com/ommiy2j',
         linkedInUrl: 'https://www.linkedin.com/in/omprakash-kumar-0237161b0/',
         status: 'Always Learning'),
-
     Member(
         name: 'Soham Biswas',
         year: '3rd',
@@ -108,7 +102,6 @@ class AllMembers {
         githubUrl: 'https://github.com/Nibba2018',
         linkedInUrl: 'https://www.linkedin.com/in/soham-biswas-590784168/',
         status: 'Squashing Bugs'),
-
     Member(
         name: 'Sarvjeet Kumar',
         year: '3rd',
@@ -120,40 +113,59 @@ class AllMembers {
         githubUrl: 'https://github.com/SarvjeetGit',
         linkedInUrl: 'https://www.linkedin.com/in/sarvjeet-kumar-65470a184',
         status: 'Always curious'),
-
     Member(
         name: 'Vineeta Jain',
         year: '3rd',
         department: 'Computer Science',
         profilePath: 'assets/profiles/VineetaJain.jpeg',
         aboutMe:
-        'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
+            'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
         fburl: 'https://www.facebook.com/vineeta.jain.79069',
         githubUrl: 'https://github.com/Ninjavin',
-        status: 'Bugging'),
-    
-     Member(
+        status: 'Bugging',
+        linkedInUrl: ''),
+    Member(
         name: 'Divya Prakash',
         year: '3rd',
         department: 'Information Technology',
         profilePath: 'assets/profiles/divyaPrakash.jpeg',
-        aboutMe:
-        'A cybersecurity enthusiast and full stack developer',
+        aboutMe: 'A cybersecurity enthusiast and full stack developer',
         githubUrl: 'https://github.com/divyake',
-       linkedInUrl : 'https://linkedin.com/in/divyake',
+        linkedInUrl: 'https://linkedin.com/in/divyake',
         status: 'Focusing'),
-    
-     Member(
+    Member(
         name: 'Zafer Shah',
         year: '4th',
         department: 'Computer Science & Engineering',
         profilePath: 'assets/profiles/zafer.jpg',
         aboutMe:
-        'I am a 4th year Student interested in AI and NLP, also loves building apps as a hobby',
+            'I am a 4th year Student interested in AI and NLP, also loves building apps as a hobby',
         fburl: 'https://www.facebook.com/profile.php?id=100011562519025',
         githubUrl: 'https://github.com/Zafershah24',
         linkedInUrl: 'www.linkedin.com/in/zafer-shah',
         status: 'Clouds & Dirt'),
+    Member(
+        name: 'Sayantan Dasgupta',
+        year: '2nd',
+        department: 'Electronics and Communications Engineering',
+        profilePath: 'assets/profiles/sayantan_dasgupta.jpg',
+        aboutMe:
+            'I am an Ml and Game Development enthusiast. Also, I am interested in App Development as a hobby. Basically I am interested in a lot of things, be it technical or non-technical',
+        fburl: 'https://www.facebook.com/sayantan.dasgupta.710',
+        githubUrl: 'https://github.com/Arka2001',
+        linkedInUrl: 'https://www.linkedin.com/in/sayantan-dasgupta-65640b1ab/',
+        status: 'Chillin'),
+    Member(
+        name: 'Ayush Raj',
+        year: '3rd',
+        department: 'Computer Science',
+        profilePath: 'assets/profiles/ayush-raj.jpg',
+        aboutMe:
+            'I am an undergrad student who is passionate about Computer Vision and machine learning. Recently developed a keen interest in flutter dev. Looking for opportunities to collaborate',
+        fburl: 'https://www.facebook.com/profile.php?id=100007441660959',
+        githubUrl: 'https://github.com/rajayushGithub',
+        linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
+        status: 'Debugging'),
   ];
 
   static List<Member> get members {

@@ -1,3 +1,4 @@
+
 import 'package:flutter/cupertino.dart';
 
 class Member {
@@ -22,3 +23,4 @@ class Member {
       this.githubUrl,
       this.linkedInUrl});
 }
+
