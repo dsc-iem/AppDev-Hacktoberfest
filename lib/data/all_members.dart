@@ -82,6 +82,17 @@ class AllMembers {
         githubUrl: 'https://github.com/peekaboo5149',
         linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
         status: 'Always Learning'),
+    Member(
+        name: 'Omprakash kumar',
+        year: '3rd',
+        department: 'Electrical',
+        profilePath: 'assets/profiles/Omprakash.jpeg',
+        aboutMe:
+        'I am Web developer. I am passionate about learning python and django',
+        fburl: 'https://www.facebook.com/ommiy2j',
+        githubUrl: 'https://github.com/ommiy2j',
+        linkedInUrl: 'https://www.linkedin.com/in/omprakash-kumar-0237161b0/',
+        status: 'Always Learning'),
 
   ];
 
