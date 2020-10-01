@@ -72,7 +72,7 @@ class AllMembers {
     Member(
         name: 'Tanmay Kumar',
         year: '3rd',
-        department: 'Electrical',
+        department: 'Electrical & Electronics',
         profilePath: 'assets/profiles/tanmayKumar.png',
         aboutMe: 'I am JAVA developer. I am passionate about learning flutter',
         fburl: 'https://www.facebook.com/profile.php?id=100008348955224',
@@ -82,7 +82,7 @@ class AllMembers {
     Member(
         name: 'Omprakash kumar',
         year: '3rd',
-        department: 'Electrical',
+        department: 'Electrical & Electronics',
         profilePath: 'assets/profiles/Omprakash.jpeg',
         aboutMe:
             'I am Web developer. I am passionate about learning python and django',
@@ -106,7 +106,7 @@ class AllMembers {
     Member(
         name: 'Sarvjeet Kumar',
         year: '3rd',
-        department: 'Electrical',
+        department: 'Electrical & Electronics',
         profilePath: 'assets/profiles/Sarvjeet_Kumar.jpeg',
         aboutMe:
             'I am front-end web developer. I am curious about app development.',
