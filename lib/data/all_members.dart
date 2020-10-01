@@ -71,6 +71,17 @@ class AllMembers {
         githubUrl: 'https://github.com/Pranjalmishra30',
         linkedInUrl: 'https://www.linkedin.com/in/pranjal-mishra-3a79b0196/',
         status: 'Always Learning'),
+    Member(
+        name: 'Tanmay Kumar',
+        year: '3rd',
+        department: 'Electrical',
+        profilePath: 'assets/profiles/tanmayKumar.png',
+        aboutMe:
+        'I am JAVA developer. I am passionate about learning flutter',
+        fburl: 'https://www.facebook.com/profile.php?id=100008348955224',
+        githubUrl: 'https://github.com/peekaboo5149',
+        linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
+        status: 'Always Learning'),
 
   ];
 
