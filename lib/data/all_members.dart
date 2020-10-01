@@ -82,6 +82,18 @@ class AllMembers {
         githubUrl: 'https://github.com/peekaboo5149',
         linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
         status: 'Always Learning'),
+    Member(
+        name: 'Sarvjeet Kumar',
+        year: '3rd',
+        department: 'Electrical',
+        profilePath: 'assets/profiles/Sarvjeet_Kumar.jpeg',
+        aboutMe:
+        'I am front-end web developer. I am curious about app development.',
+        fburl: 'https://www.facebook.com/sarvjeetrocks',
+        githubUrl: 'https://github.com/SarvjeetGit',
+        linkedInUrl: 'https://www.linkedin.com/in/sarvjeet-kumar-65470a184',
+        status: 'Always curious'),
+
 
   ];
 
