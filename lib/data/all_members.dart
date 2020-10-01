@@ -36,7 +36,20 @@ class AllMembers {
         linkedInUrl: 'https://www.linkedin.com/in/rahul-kashyap-230577195/',
         status: 'Working from home'),
 
+
     Member(
+        name: 'Agung Prabowo',
+        year: '1st',
+        department: 'Mobile',
+        profilePath: 'assets/profiles/agung-prabowo.jpg',
+        aboutMe:
+            'I am a flutter developer.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
+        fburl: 'https://www.facebook.com/agung.prabowo.110696/',
+        githubUrl: 'https://github.com/AgungPrabowo',
+        linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
+        status: 'Working from home'),
+    
+      Member(
         name: 'Pranjal Mishra',
         year: '2nd',
         department: 'Computer Science',
