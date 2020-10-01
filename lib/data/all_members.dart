@@ -10,13 +10,15 @@ year=your year of study in college
 department=your department of graduation
 profilePath=path to your profile photo
 aboutMe= A brief introduction about yourself
-fbUrl=your fb account url
+fbUrl=your facebook account url
 githubUrl=your github account url
 linkedInUrl=your linkedIn account url
 status= A 2-3 word current status
 
 Remember all are string input.
-I have already my info. In same manner you need to add yours.
+I have already added my info. In same manner you need to add yours.
+
+If you don't have url for the fb ,github & linkedIn, just remove that field.
 
 */
 
@@ -103,7 +105,6 @@ class AllMembers {
         profilePath: 'assets/profiles/soham.jpeg',
         aboutMe:
             'Machine Learning and Computational Science Enthusiast, who loves contributing to Open Source and prefers to be in the R&D team.',
-        fburl: '',
         githubUrl: 'https://github.com/Nibba2018',
         linkedInUrl: 'https://www.linkedin.com/in/soham-biswas-590784168/',
         status: 'Squashing Bugs'),
@@ -138,9 +139,8 @@ class AllMembers {
         profilePath: 'assets/profiles/divyaPrakash.jpeg',
         aboutMe:
         'A cybersecurity enthusiast and full stack developer',
-        fburl: '',
         githubUrl: 'https://github.com/divyake',
-       linkedInUrl : 'https://linkedin.com/in/divyake'
+       linkedInUrl : 'https://linkedin.com/in/divyake',
         status: 'Focusing'),
     
      Member(
