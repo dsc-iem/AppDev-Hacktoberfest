@@ -1,3 +1,4 @@
+
 /*
 1) This is the only file which you need to edit to contribute in the development. However, you can always look at other files in the codebase incase you are inquisitive enough.
 
@@ -129,7 +130,7 @@ class AllMembers {
         'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
         fburl: 'https://www.facebook.com/vineeta.jain.79069',
         githubUrl: 'https://github.com/Ninjavin',
-        status: 'Bugging'),
+        status: 'Bugging', linkedInUrl: ''),
     
      Member(
         name: 'Divya Prakash',
@@ -140,7 +141,7 @@ class AllMembers {
         'A cybersecurity enthusiast and full stack developer',
         fburl: '',
         githubUrl: 'https://github.com/divyake',
-       linkedInUrl : 'https://linkedin.com/in/divyake'
+       linkedInUrl : 'https://linkedin.com/in/divyake',
         status: 'Focusing'),
     
      Member(
@@ -155,7 +156,20 @@ class AllMembers {
         linkedInUrl: 'www.linkedin.com/in/zafer-shah',
         status: 'Clouds & Dirt'),
 
-        Member(
+
+     Member(
+        name: 'Sayantan Dasgupta',
+        year: '2nd',
+        department: 'Electronics and Communications Engineering',
+        profilePath: 'assets/profiles/sayantan_dasgupta.jpg',
+        aboutMe:
+        'I am an Ml and Game Development enthusiast. Also, I am interested in App Development as a hobby. Basically I am interested in a lot of things, be it technical or non-technical',
+        fburl: 'https://www.facebook.com/sayantan.dasgupta.710',
+        githubUrl: 'https://github.com/Arka2001',
+        linkedInUrl: 'https://www.linkedin.com/in/sayantan-dasgupta-65640b1ab/',
+        status: 'Chillin'),
+    
+     Member(
         name: 'Ayush Raj',
         year: '3rd',
         department: 'Computer Science',
