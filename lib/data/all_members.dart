@@ -35,7 +35,6 @@ class AllMembers {
         githubUrl: 'https://github.com/imkashyap',
         linkedInUrl: 'https://www.linkedin.com/in/rahul-kashyap-230577195/',
         status: 'Working from home'),
-
     Member(
         name: 'Agung Prabowo',
         year: '1st',
@@ -47,7 +46,6 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
-    
     Member(
       name: 'Diksha Dixit',
       year: '3rd',
@@ -66,7 +64,7 @@ class AllMembers {
         department: 'Computer Science',
         profilePath: 'assets/profiles/Pranjalmishra.jpeg',
         aboutMe:
-        'I am an undergrad student who is passionate about Computer Vision and robotics. Recently developed a keen interest in flutter dev. Looking for opportunities to collaborate',
+            'I am an undergrad student who is passionate about Computer Vision and robotics. Recently developed a keen interest in flutter dev. Looking for opportunities to collaborate',
         fburl: 'https://www.facebook.com/pranjal.mishra.927',
         githubUrl: 'https://github.com/Pranjalmishra30',
         linkedInUrl: 'https://www.linkedin.com/in/pranjal-mishra-3a79b0196/',
@@ -76,8 +74,7 @@ class AllMembers {
         year: '3rd',
         department: 'Electrical',
         profilePath: 'assets/profiles/tanmayKumar.png',
-        aboutMe:
-        'I am JAVA developer. I am passionate about learning flutter',
+        aboutMe: 'I am JAVA developer. I am passionate about learning flutter',
         fburl: 'https://www.facebook.com/profile.php?id=100008348955224',
         githubUrl: 'https://github.com/peekaboo5149',
         linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
@@ -88,7 +85,7 @@ class AllMembers {
         department: 'Electrical',
         profilePath: 'assets/profiles/Omprakash.jpeg',
         aboutMe:
-        'I am Web developer. I am passionate about learning python and django',
+            'I am Web developer. I am passionate about learning python and django',
         fburl: 'https://www.facebook.com/ommiy2j',
         githubUrl: 'https://github.com/ommiy2j',
         linkedInUrl: 'https://www.linkedin.com/in/omprakash-kumar-0237161b0/',
@@ -106,6 +103,17 @@ class AllMembers {
         linkedInUrl: 'https://www.linkedin.com/in/soham-biswas-590784168/',
         status: 'Squashing Bugs'),
 
+    Member(
+        name: 'Sarvjeet Kumar',
+        year: '3rd',
+        department: 'Electrical',
+        profilePath: 'assets/profiles/Sarvjeet_Kumar.jpeg',
+        aboutMe:
+            'I am front-end web developer. I am curious about app development.',
+        fburl: 'https://www.facebook.com/sarvjeetrocks',
+        githubUrl: 'https://github.com/SarvjeetGit',
+        linkedInUrl: 'https://www.linkedin.com/in/sarvjeet-kumar-65470a184',
+        status: 'Always curious'),
   ];
 
   static List<Member> get members {
