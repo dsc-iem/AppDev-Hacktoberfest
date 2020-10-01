@@ -138,6 +138,19 @@ class AllMembers {
         githubUrl: 'https://github.com/divyake',
        linkedInUrl : 'https://linkedin.com/in/divyake'
         status: 'Focusing'),
+
+     Member(
+        name: 'Sayantan Dasgupta',
+        year: '2nd',
+        department: 'Electronics and Communication',
+        profilePath: 'assets/profiles/sayantan_dasgupta.jpg',
+        aboutMe:
+        'I am a Machine Learning and Game Development Enthusiast. And well, interested in anything new and unique, be it related to technology or not',
+        fburl: 'https://www.facebook.com/sayantan.dasgupta.710',
+        githubUrl: 'https://github.com/Arka2001',
+       linkedInUrl : 'https://www.linkedin.com/in/sayantan-dasgupta-65640b1ab/'
+        status: 'Learning'),
+    
   ];
 
   static List<Member> get members {
