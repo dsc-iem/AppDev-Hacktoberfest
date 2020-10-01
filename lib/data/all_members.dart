@@ -60,6 +60,7 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
       status: 'Working from home',
     ),
+    
     Member(
         name: 'Pranjal Mishra',
         year: '2nd',
@@ -71,6 +72,7 @@ class AllMembers {
         githubUrl: 'https://github.com/Pranjalmishra30',
         linkedInUrl: 'https://www.linkedin.com/in/pranjal-mishra-3a79b0196/',
         status: 'Always Learning'),
+    
     Member(
         name: 'Tanmay Kumar',
         year: '3rd',
@@ -82,7 +84,7 @@ class AllMembers {
         githubUrl: 'https://github.com/peekaboo5149',
         linkedInUrl: 'https://www.linkedin.com/in/tanmay-kumar-aaa9991b8/',
         status: 'Always Learning'),
-    Member(
+    
         name: 'Omprakash kumar',
         year: '3rd',
         department: 'Electrical',
@@ -93,6 +95,18 @@ class AllMembers {
         githubUrl: 'https://github.com/ommiy2j',
         linkedInUrl: 'https://www.linkedin.com/in/omprakash-kumar-0237161b0/',
         status: 'Always Learning'),
+    
+        Member(
+        name: 'Sarvjeet Kumar',
+        year: '3rd',
+        department: 'Electrical',
+        profilePath: 'assets/profiles/Sarvjeet_Kumar.jpeg',
+        aboutMe:
+        'I am front-end web developer. I am curious about app development.',
+        fburl: 'https://www.facebook.com/sarvjeetrocks',
+        githubUrl: 'https://github.com/SarvjeetGit',
+        linkedInUrl: 'https://www.linkedin.com/in/sarvjeet-kumar-65470a184',
+        status: 'Always curious'),
 
   ];
 
