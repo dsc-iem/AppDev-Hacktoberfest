@@ -90,6 +90,19 @@ class AllMembers {
         githubUrl: 'https://github.com/ommiy2j',
         linkedInUrl: 'https://www.linkedin.com/in/omprakash-kumar-0237161b0/',
         status: 'Always Learning'),
+
+    Member(
+        name: 'Soham Biswas',
+        year: '3rd',
+        department: 'Computer Science',
+        profilePath: 'assets/profiles/soham.jpeg',
+        aboutMe:
+            'Machine Learning and Computational Science Enthusiast, who loves contributing to Open Source and prefers to be in the R&D team.',
+        fburl: '',
+        githubUrl: 'https://github.com/Nibba2018',
+        linkedInUrl: 'https://www.linkedin.com/in/soham-biswas-590784168/',
+        status: 'Squashing Bugs'),
+
     Member(
         name: 'Sarvjeet Kumar',
         year: '3rd',
