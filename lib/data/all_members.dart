@@ -130,8 +130,20 @@ class AllMembers {
         fburl: 'https://www.facebook.com/vineeta.jain.79069',
         githubUrl: 'https://github.com/Ninjavin',
         status: 'Bugging'),
-
-    Member(
+    
+     Member(
+        name: 'Divya Prakash',
+        year: '3rd',
+        department: 'Information Technology',
+        profilePath: 'assets/profiles/divyaPrakash.jpeg',
+        aboutMe:
+        'A cybersecurity enthusiast and full stack developer',
+        fburl: '',
+        githubUrl: 'https://github.com/divyake',
+       linkedInUrl : 'https://linkedin.com/in/divyake'
+        status: 'Focusing'),
+    
+     Member(
         name: 'Zafer Shah',
         year: '4th',
         department: 'Computer Science & Engineering',
