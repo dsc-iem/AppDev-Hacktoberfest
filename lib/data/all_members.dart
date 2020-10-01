@@ -35,9 +35,6 @@ class AllMembers {
         githubUrl: 'https://github.com/imkashyap',
         linkedInUrl: 'https://www.linkedin.com/in/rahul-kashyap-230577195/',
         status: 'Working from home'),
-
-
-
     Member(
         name: 'Agung Prabowo',
         year: '1st',
@@ -49,6 +46,18 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
+    Member(
+      name: 'Diksha Dixit',
+      year: '3rd',
+      department: 'Information Science',
+      profilePath: 'assets/profiles/dikshadixit.jpg',
+      aboutMe:
+          'I am a flutter enthusiast.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
+      fburl: 'https://www.facebook.com/diksha.dixit.9809',
+      githubUrl: 'https://github.com/diksha0399',
+      linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
+      status: 'Working from home',
+    )
   ];
 
   static List<Member> get members {
