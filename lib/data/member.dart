@@ -1,3 +1,4 @@
+
 import 'package:flutter/cupertino.dart';
 
 class Member {
@@ -17,8 +18,9 @@ class Member {
       @required this.department,
       @required this.profilePath,
       @required this.aboutMe,
-      @required this.fburl,
+      this.fburl,
       @required this.status,
-      @required this.githubUrl,
-      @required this.linkedInUrl});
+      this.githubUrl,
+      this.linkedInUrl});
 }
+

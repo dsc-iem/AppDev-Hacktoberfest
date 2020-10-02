@@ -10,13 +10,15 @@ year=your year of study in college
 department=your department of graduation
 profilePath=path to your profile photo
 aboutMe= A brief introduction about yourself
-fbUrl=your fb account url
+fbUrl=your facebook account url
 githubUrl=your github account url
 linkedInUrl=your linkedIn account url
 status= A 2-3 word current status
 
 Remember all are string input.
-I have already my info. In same manner you need to add yours.
+I have already added my info. In same manner you need to add yours.
+
+If you don't have url for the fb ,github & linkedIn, just remove that field.
 
 */
 
@@ -46,17 +48,20 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
-    Member(
-        name: 'Diksha Dixit',
-        year: '3rd',
-        department: 'Information Science',
-        profilePath: 'assets/profiles/dikshadixit.jpg',
-        aboutMe:
-            'I am a flutter enthusiast.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
-        fburl: 'https://www.facebook.com/diksha.dixit.9809',
-        githubUrl: 'https://github.com/diksha0399',
-        linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
-        status: 'Working from home'),
+  
+Member(
+      name: 'Diksha Dixit',
+      year: '3rd',
+      department: 'Information Science',
+      profilePath: 'assets/profiles/dikshadixit.jpg',
+      aboutMe:
+          'I am a flutter enthusiast.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
+      fburl: 'https://www.facebook.com/diksha.dixit.9809',
+      githubUrl: 'https://github.com/diksha0399',
+      linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
+      status: 'Working from home',
+    ),
+
     Member(
         name: 'Pranjal Mishra',
         year: '2nd',
@@ -96,7 +101,6 @@ class AllMembers {
         profilePath: 'assets/profiles/soham.jpeg',
         aboutMe:
             'Machine Learning and Computational Science Enthusiast, who loves contributing to Open Source and prefers to be in the R&D team.',
-        fburl: '',
         githubUrl: 'https://github.com/Nibba2018',
         linkedInUrl: 'https://www.linkedin.com/in/soham-biswas-590784168/',
         status: 'Squashing Bugs'),
@@ -122,6 +126,8 @@ class AllMembers {
         githubUrl: 'https://github.com/Ninjavin',
         linkedInUrl: 'null',
         status: 'Bugging'),
+        status: 'Bugging',
+        linkedInUrl: ''),
     Member(
         name: 'Divya Prakash',
         year: '3rd',
@@ -143,7 +149,40 @@ class AllMembers {
         githubUrl: 'https://github.com/Zafershah24',
         linkedInUrl: 'www.linkedin.com/in/zafer-shah',
         status: 'Clouds & Dirt'),
+      Member(
+        name: 'Sayantan Dasgupta',
+        year: '2nd',
+        department: 'Electronics and Communications Engineering',
+        profilePath: 'assets/profiles/sayantan_dasgupta.jpg',
+        aboutMe:
+            'I am an Ml and Game Development enthusiast. Also, I am interested in App Development as a hobby. Basically I am interested in a lot of things, be it technical or non-technical',
+        fburl: 'https://www.facebook.com/sayantan.dasgupta.710',
+        githubUrl: 'https://github.com/Arka2001',
+        linkedInUrl: 'https://www.linkedin.com/in/sayantan-dasgupta-65640b1ab/',
+        status: 'Chillin'),
     Member(
+        name: 'Ayush Raj',
+        year: '3rd',
+        department: 'Computer Science',
+        profilePath: 'assets/profiles/ayush-raj.jpg',
+        aboutMe:
+            'I am an undergrad student who is passionate about Computer Vision and machine learning. Recently developed a keen interest in flutter dev. Looking for opportunities to collaborate',
+        fburl: 'https://www.facebook.com/profile.php?id=100007441660959',
+        githubUrl: 'https://github.com/rajayushGithub',
+        linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
+        status: 'Debugging'),
+    Member(
+        name: 'Fuad Reza Pahlevi',
+        year: '4th',
+        department: 'Informatics and Engineering Education',
+        profilePath: 'assets/profiles/fuadreza.jpeg',
+        aboutMe:
+        'I am a final student at Yogyakarta State University. I am motivated to become android developer and newly to flutter and already loved it. So much fun developing application with it and open to any Open Source program',
+        fburl: 'https://www.facebook.com/fuad.pahlevi.7',
+        githubUrl: 'https://github.com/fuadreza',
+        linkedInUrl: 'https://www.linkedin.com/in/fuad-reza-pahlevi-531283160',
+        status: 'Dehydrated'),
+     Member(
         name: 'Moyin Shabi',
         year: '2nd',
         department: 'Computer Engineering',
@@ -154,6 +193,8 @@ class AllMembers {
         githubUrl: 'https://github.com/MoyinShabi',
         linkedInUrl: 'https://www.linkedin.com/in/moyinoluwashabi/',
         status: 'Learning at home'),
+
+   
   ];
 
   static List<Member> get members {

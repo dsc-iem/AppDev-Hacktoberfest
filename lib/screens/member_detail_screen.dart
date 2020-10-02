@@ -222,17 +222,17 @@ class MemberDetailScreen extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        _buildSocialButton(
+                        member.fburl==null?SizedBox.shrink():_buildSocialButton(
                             size: size,
                             context: context,
                             iconPath: 'assets/images/facebook light theme.png',
                             url: member.fburl),
-                        _buildSocialButton(
+                        member.githubUrl==null?Container():_buildSocialButton(
                             size: size,
                             context: context,
                             iconPath: 'assets/images/github.png',
                             url: member.githubUrl),
-                        _buildSocialButton(
+                        member.linkedInUrl==null?Container():_buildSocialButton(
                             size: size,
                             context: context,
                             iconPath: 'assets/images/linkdin light theme.png',
