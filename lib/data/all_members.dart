@@ -166,6 +166,19 @@ class AllMembers {
         githubUrl: 'https://github.com/rajayushGithub',
         linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
         status: 'Debugging'),
+    Member(
+        name: 'Fuad Reza Pahlevi',
+        year: '4th',
+        department: 'Informatics and Engineering Education',
+        profilePath: 'assets/profiles/fuadreza.jpeg',
+        aboutMe:
+        'I am a final student at Yogyakarta State University. I am motivated to become android developer and newly to flutter and already loved it. So much fun developing application with it and open to any Open Source program',
+        fburl: 'https://www.facebook.com/fuad.pahlevi.7',
+        githubUrl: 'https://github.com/fuadreza',
+        linkedInUrl: 'https://www.linkedin.com/in/fuad-reza-pahlevi-531283160',
+        status: 'Dehydrated'),
+
+    
   ];
 
   static List<Member> get members {
