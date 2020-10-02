@@ -166,6 +166,17 @@ class AllMembers {
         githubUrl: 'https://github.com/rajayushGithub',
         linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
         status: 'Debugging'),
+    Member(
+        name: 'Swapnanil Ray',
+        year: '2nd',
+        department: 'Computer Science',
+        profilePath: 'assets\profiles\swapnanilray.jpg',
+        aboutMe:
+            'Currently in my 2nd year of Engineering, I am highly inclined towards Web Dev. Recently developed a liking for CySec thus working my way out Learning Stuff!',
+        fburl: 'https://www.facebook.com/profile.php?id=100010718769940',
+        githubUrl: 'https://github.com/redhatpanda',
+        linkedInUrl: 'https://www.linkedin.com/in/swapnanil-ray-88018318a',
+        status: 'Finding the smallest path out!'),
   ];
 
   static List<Member> get members {
