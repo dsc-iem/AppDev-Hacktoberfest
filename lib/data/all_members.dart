@@ -48,8 +48,7 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
-  
-Member(
+    Member(
       name: 'Diksha Dixit',
       year: '3rd',
       department: 'Information Science',
@@ -61,7 +60,6 @@ Member(
       linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
       status: 'Working from home',
     ),
-
     Member(
         name: 'Pranjal Mishra',
         year: '2nd',
@@ -145,7 +143,7 @@ Member(
         githubUrl: 'https://github.com/Zafershah24',
         linkedInUrl: 'www.linkedin.com/in/zafer-shah',
         status: 'Clouds & Dirt'),
-      Member(
+    Member(
         name: 'Sayantan Dasgupta',
         year: '2nd',
         department: 'Electronics and Communications Engineering',
@@ -167,19 +165,18 @@ Member(
         githubUrl: 'https://github.com/rajayushGithub',
         linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
         status: 'Debugging'),
-   
-        Member(
+    Member(
         name: 'Fuad Reza Pahlevi',
         year: '4th',
         department: 'Informatics and Engineering Education',
         profilePath: 'assets/profiles/fuadreza.jpeg',
         aboutMe:
-        'I am a final student at Yogyakarta State University. I am motivated to become android developer and newly to flutter and already loved it. So much fun developing application with it and open to any Open Source program',
+            'I am a final student at Yogyakarta State University. I am motivated to become android developer and newly to flutter and already loved it. So much fun developing application with it and open to any Open Source program',
         fburl: 'https://www.facebook.com/fuad.pahlevi.7',
         githubUrl: 'https://github.com/fuadreza',
         linkedInUrl: 'https://www.linkedin.com/in/fuad-reza-pahlevi-531283160',
         status: 'Dehydrated'),
-     Member(
+    Member(
         name: 'Moyin Shabi',
         year: '2nd',
         department: 'Computer Engineering',
@@ -189,11 +186,11 @@ Member(
         githubUrl: 'https://github.com/MoyinShabi',
         linkedInUrl: 'https://www.linkedin.com/in/moyinoluwashabi/',
         status: 'Learning at home'),
-     Member(
+    Member(
         name: 'Swapnanil Ray',
         year: '2nd',
         department: 'Computer Science',
-        profilePath: 'assets\profiles\swapnanilray.jpg',
+        profilePath: 'assets/profiles/swapnanilray.jpg',
         aboutMe:
             'Currently in my 2nd year of Engineering, I am highly inclined towards Web Dev. Recently developed a liking for CySec thus working my way out Learning Stuff!',
         fburl: 'https://www.facebook.com/profile.php?id=100010718769940',
