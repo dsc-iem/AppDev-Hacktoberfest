@@ -197,6 +197,17 @@ class AllMembers {
         githubUrl: 'https://github.com/redhatpanda',
         linkedInUrl: 'https://www.linkedin.com/in/swapnanil-ray-88018318a',
         status: 'Finding the smallest path out!'),
+     Member(
+        name: 'Surya Sekhar Datta',
+        year: '2nd',
+        department: 'Computer Science',
+        profilePath: 'assets\profiles\suryasekhardatta.jpeg',
+        aboutMe:
+            'Currently in my 2nd year of Engineering, Hghly intrested towards Web Dev. ',
+        fburl: 'https://www.facebook.com/suryasekhar.datta.7/',
+        githubUrl: 'https://github.com/SuryaSekhar14',
+        linkedInUrl: 'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
+        status: 'Always Learning.'),
   ];
 
   static List<Member> get members {
