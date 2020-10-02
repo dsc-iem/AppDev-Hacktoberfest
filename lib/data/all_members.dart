@@ -124,17 +124,13 @@ Member(
             'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
         fburl: 'https://www.facebook.com/vineeta.jain.79069',
         githubUrl: 'https://github.com/Ninjavin',
-        linkedInUrl: 'null',
         status: 'Bugging'),
-        status: 'Bugging',
-        linkedInUrl: ''),
     Member(
         name: 'Divya Prakash',
         year: '3rd',
         department: 'Information Technology',
         profilePath: 'assets/profiles/divyaPrakash.jpeg',
         aboutMe: 'A cybersecurity enthusiast and full stack developer',
-        fburl: '',
         githubUrl: 'https://github.com/divyake',
         linkedInUrl: 'https://linkedin.com/in/divyake',
         status: 'Focusing'),
@@ -171,7 +167,8 @@ Member(
         githubUrl: 'https://github.com/rajayushGithub',
         linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
         status: 'Debugging'),
-    Member(
+   
+        Member(
         name: 'Fuad Reza Pahlevi',
         year: '4th',
         department: 'Informatics and Engineering Education',
@@ -189,12 +186,20 @@ Member(
         profilePath: 'assets/profiles/moyinshabi.jpg',
         aboutMe:
             "I'm a beginner Flutter Developer and I'm excited about my learning journey!",
-        fburl: 'null',
         githubUrl: 'https://github.com/MoyinShabi',
         linkedInUrl: 'https://www.linkedin.com/in/moyinoluwashabi/',
         status: 'Learning at home'),
-
-   
+     Member(
+        name: 'Swapnanil Ray',
+        year: '2nd',
+        department: 'Computer Science',
+        profilePath: 'assets\profiles\swapnanilray.jpg',
+        aboutMe:
+            'Currently in my 2nd year of Engineering, I am highly inclined towards Web Dev. Recently developed a liking for CySec thus working my way out Learning Stuff!',
+        fburl: 'https://www.facebook.com/profile.php?id=100010718769940',
+        githubUrl: 'https://github.com/redhatpanda',
+        linkedInUrl: 'https://www.linkedin.com/in/swapnanil-ray-88018318a',
+        status: 'Finding the smallest path out!'),
   ];
 
   static List<Member> get members {
