@@ -48,7 +48,8 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
-    Member(
+  
+Member(
       name: 'Diksha Dixit',
       year: '3rd',
       department: 'Information Science',
@@ -60,6 +61,7 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
       status: 'Working from home',
     ),
+
     Member(
         name: 'Pranjal Mishra',
         year: '2nd',
@@ -122,8 +124,7 @@ class AllMembers {
             'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
         fburl: 'https://www.facebook.com/vineeta.jain.79069',
         githubUrl: 'https://github.com/Ninjavin',
-        status: 'Bugging',
-        linkedInUrl: ''),
+        status: 'Bugging'),
     Member(
         name: 'Divya Prakash',
         year: '3rd',
@@ -144,7 +145,7 @@ class AllMembers {
         githubUrl: 'https://github.com/Zafershah24',
         linkedInUrl: 'www.linkedin.com/in/zafer-shah',
         status: 'Clouds & Dirt'),
-    Member(
+      Member(
         name: 'Sayantan Dasgupta',
         year: '2nd',
         department: 'Electronics and Communications Engineering',
@@ -166,7 +167,29 @@ class AllMembers {
         githubUrl: 'https://github.com/rajayushGithub',
         linkedInUrl: 'https://www.linkedin.com/in/ayush-raj-5b6142184',
         status: 'Debugging'),
-    Member(
+   
+        Member(
+        name: 'Fuad Reza Pahlevi',
+        year: '4th',
+        department: 'Informatics and Engineering Education',
+        profilePath: 'assets/profiles/fuadreza.jpeg',
+        aboutMe:
+        'I am a final student at Yogyakarta State University. I am motivated to become android developer and newly to flutter and already loved it. So much fun developing application with it and open to any Open Source program',
+        fburl: 'https://www.facebook.com/fuad.pahlevi.7',
+        githubUrl: 'https://github.com/fuadreza',
+        linkedInUrl: 'https://www.linkedin.com/in/fuad-reza-pahlevi-531283160',
+        status: 'Dehydrated'),
+     Member(
+        name: 'Moyin Shabi',
+        year: '2nd',
+        department: 'Computer Engineering',
+        profilePath: 'assets/profiles/moyinshabi.jpg',
+        aboutMe:
+            "I'm a beginner Flutter Developer and I'm excited about my learning journey!",
+        githubUrl: 'https://github.com/MoyinShabi',
+        linkedInUrl: 'https://www.linkedin.com/in/moyinoluwashabi/',
+        status: 'Learning at home'),
+     Member(
         name: 'Swapnanil Ray',
         year: '2nd',
         department: 'Computer Science',
