@@ -48,7 +48,8 @@ class AllMembers {
         githubUrl: 'https://github.com/AgungPrabowo',
         linkedInUrl: 'https://www.linkedin.com/in/agung-prabowo-6104a2137/',
         status: 'Working from home'),
-    Member(
+  
+Member(
       name: 'Diksha Dixit',
       year: '3rd',
       department: 'Information Science',
@@ -60,6 +61,7 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/diksha-dixit-65948a1aa/',
       status: 'Working from home',
     ),
+
     Member(
         name: 'Pranjal Mishra',
         year: '2nd',
@@ -122,6 +124,8 @@ class AllMembers {
             'I am an aspiring learner, and I spend a large amount of time exploring the latest technology advancements in the web development world',
         fburl: 'https://www.facebook.com/vineeta.jain.79069',
         githubUrl: 'https://github.com/Ninjavin',
+        linkedInUrl: 'null',
+        status: 'Bugging'),
         status: 'Bugging',
         linkedInUrl: ''),
     Member(
@@ -130,6 +134,7 @@ class AllMembers {
         department: 'Information Technology',
         profilePath: 'assets/profiles/divyaPrakash.jpeg',
         aboutMe: 'A cybersecurity enthusiast and full stack developer',
+        fburl: '',
         githubUrl: 'https://github.com/divyake',
         linkedInUrl: 'https://linkedin.com/in/divyake',
         status: 'Focusing'),
@@ -144,7 +149,7 @@ class AllMembers {
         githubUrl: 'https://github.com/Zafershah24',
         linkedInUrl: 'www.linkedin.com/in/zafer-shah',
         status: 'Clouds & Dirt'),
-    Member(
+      Member(
         name: 'Sayantan Dasgupta',
         year: '2nd',
         department: 'Electronics and Communications Engineering',
@@ -177,8 +182,19 @@ class AllMembers {
         githubUrl: 'https://github.com/fuadreza',
         linkedInUrl: 'https://www.linkedin.com/in/fuad-reza-pahlevi-531283160',
         status: 'Dehydrated'),
+     Member(
+        name: 'Moyin Shabi',
+        year: '2nd',
+        department: 'Computer Engineering',
+        profilePath: 'assets/profiles/moyinshabi.jpg',
+        aboutMe:
+            "I'm a beginner Flutter Developer and I'm excited about my learning journey!",
+        fburl: 'null',
+        githubUrl: 'https://github.com/MoyinShabi',
+        linkedInUrl: 'https://www.linkedin.com/in/moyinoluwashabi/',
+        status: 'Learning at home'),
 
-    
+   
   ];
 
   static List<Member> get members {
