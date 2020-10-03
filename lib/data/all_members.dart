@@ -27,6 +27,18 @@ import 'package:dsc_devs/data/member.dart';
 class AllMembers {
   static List<Member> _members = [
     Member(
+        name: 'Hutomo Sakti Kartiko',
+        year: '3rd',
+        department: 'Information Science',
+        profilePath: 'assets/profiles/Hutomo.png',
+        aboutMe:
+            'I am a flutter developer.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
+        fburl: 'https://www.facebook.com/hutomo.sakti.7/',
+        githubUrl: 'https://github.com/hutomosaktikartiko',
+        linkedInUrl:
+            'https://www.linkedin.com/in/hutomo-sakti-kartiko-488148198/',
+        status: 'Working from home'),
+    Member(
         name: 'Rahul Kashyap',
         year: '3rd',
         department: 'Electrical',
@@ -197,7 +209,7 @@ class AllMembers {
         githubUrl: 'https://github.com/redhatpanda',
         linkedInUrl: 'https://www.linkedin.com/in/swapnanil-ray-88018318a',
         status: 'Finding the smallest path out!'),
-     Member(
+    Member(
         name: 'Surya Sekhar Datta',
         year: '2nd',
         department: 'Computer Science',
@@ -206,7 +218,8 @@ class AllMembers {
             'Currently in my 2nd year of Engineering, Hghly intrested towards Web Dev. ',
         fburl: 'https://www.facebook.com/suryasekhar.datta.7/',
         githubUrl: 'https://github.com/SuryaSekhar14',
-        linkedInUrl: 'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
+        linkedInUrl:
+            'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
         status: 'Always Learning.'),
   ];
 
