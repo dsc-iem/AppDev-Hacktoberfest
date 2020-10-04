@@ -27,18 +27,6 @@ import 'package:dsc_devs/data/member.dart';
 class AllMembers {
   static List<Member> _members = [
     Member(
-        name: 'Hutomo Sakti Kartiko',
-        year: '3rd',
-        department: 'Information Science',
-        profilePath: 'assets/profiles/Hutomo.png',
-        aboutMe:
-            'I am a flutter developer.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
-        fburl: 'https://www.facebook.com/hutomo.sakti.7/',
-        githubUrl: 'https://github.com/hutomosaktikartiko',
-        linkedInUrl:
-            'https://www.linkedin.com/in/hutomo-sakti-kartiko-488148198/',
-        status: 'Working from home'),
-    Member(
         name: 'Rahul Kashyap',
         year: '3rd',
         department: 'Electrical',
@@ -213,7 +201,7 @@ class AllMembers {
         name: 'Surya Sekhar Datta',
         year: '2nd',
         department: 'Computer Science',
-        profilePath: 'assets\profiles\suryasekhardatta.jpeg',
+        profilePath: 'assets/profiles/suryasekhardatta.jpeg',
         aboutMe:
             'Currently in my 2nd year of Engineering, Hghly intrested towards Web Dev. ',
         fburl: 'https://www.facebook.com/suryasekhar.datta.7/',
@@ -221,30 +209,39 @@ class AllMembers {
         linkedInUrl:
             'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
         status: 'Always Learning.'),
-    
-     Member(
+        Member(
+        name: 'Hutomo Sakti Kartiko',
+        year: '3rd',
+        department: 'Information Science',
+        profilePath: 'assets/profiles/Hutomo.png',
+        aboutMe:
+            'I am a flutter developer.I like to spend a large amount of time exploring the latest technology advancements. A team player with a can-do attitude.',
+        fburl: 'https://www.facebook.com/hutomo.sakti.7/',
+        githubUrl: 'https://github.com/hutomosaktikartiko',
+        linkedInUrl:
+            'https://www.linkedin.com/in/hutomo-sakti-kartiko-488148198/',
+        status: 'Working from home'),
+    Member(
         name: 'Ashhar Hussain',
         year: '2nd',
         department: 'Electronics and Communication Engineering',
         profilePath: 'assets/profiles/Ashharpassport.jpg',
-        aboutMe: 'Currently in my 2nd year of Engineering, Hghly intrested towards App Dev and Web Dev. ',
+        aboutMe:
+            'Currently in my 2nd year of Engineering, Hghly intrested towards App Dev and Web Dev. ',
         githubUrl: 'https://github.com/digiashhar',
-        linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
+        linkedInUrl: 'https://www.linkedin.com/in/ashhar-hussain-15a017194/',
         status: 'seeking discomfort'),
-    
-      Member(
+    Member(
         name: 'Jahnavi Jainwal',
         year: '2nd',
         department: 'Computer Science and Engineering',
         profilePath: 'assets/profiles/JahnaviJainwal.jpg',
-        aboutMe:'A Flutter and Web Developer. Organizer of MozNUV, Creatives and Branding Lead of DSCNUV.Still have a lot to learn <3',
-        fburl: '',
+        aboutMe:
+            'A Flutter and Web Developer. Organizer of MozNUV, Creatives and Branding Lead of DSCNUV.Still have a lot to learn <3',
         githubUrl: 'https://github.com/jnvee',
-        linkedInUrl:
-        'https://www.linkedin.com/in/jahnavijainwal/',
+        linkedInUrl: 'https://www.linkedin.com/in/jahnavijainwal/',
         status: 'Working and Learning from home'),
-    
-     Member(
+    Member(
       name: 'Ayush Jain',
       year: '4th',
       department: 'Computer Science',
