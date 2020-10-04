@@ -1,7 +1,9 @@
 import 'package:circular_reveal_animation/circular_reveal_animation.dart';
 import 'package:dsc_devs/theming/dark_theme_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'members_overview_screen.dart';
 
@@ -232,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen>
                       )),
                   Flexible(
                     flex: 2,
-                    child: _optionsScreen(context),
+                    child: _buildSocialButtons(),
                   ),
                 ],
               ),
@@ -240,6 +242,67 @@ class _HomeScreenState extends State<HomeScreen>
           ),
           backgroundColor: Theme.of(context).backgroundColor,
         ),
+      ),
+    );
+  }
+
+  _buildSocialButtons() {
+    var size = MediaQuery.of(context).size;
+    return Container(
+      margin: EdgeInsets.only(left: 8, right: 8, top: 20),
+      height: MediaQuery.of(context).size.height / 7,
+      width: MediaQuery.of(context).size.width,
+      child: Card(
+        elevation: 0,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+        child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                _buildSocialButton(
+                    size: size,
+                    context: context,
+                    icon: FontAwesomeIcons.facebookF,
+                    url: 'https://www.facebook.com/dsciem'),
+                _buildSocialButton(
+                    size: size,
+                    context: context,
+                    icon: FontAwesomeIcons.twitter,
+                    url: 'https://twitter.com/dsc_iem'),
+                _buildSocialButton(
+                    size: size,
+                    context: context,
+                    icon: FontAwesomeIcons.linkedinIn,
+                    url: 'https://www.linkedin.com/company/dsciem/'),
+                    _buildSocialButton(
+                    size: size,
+                    context: context,
+                    icon: FontAwesomeIcons.instagram,
+                    url: 'https://www.instagram.com/dsc_iem/'),
+                    _buildSocialButton(
+                    size: size,
+                    context: context,
+                    icon: FontAwesomeIcons.code,
+                    url: 'https://dsc-iem.github.io/'),
+              ],
+            )),
+      ),
+    );
+  }
+
+  GestureDetector _buildSocialButton(
+      {Size size, BuildContext context, String url, IconData icon}) {
+    return GestureDetector(
+      onTap: () => launch(url),
+      child: Container(
+        height: size.width / 8,
+        width: size.width / 8,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(40),
+            color: Theme.of(context).buttonColor),
+        child: Icon(icon,
+        color: Colors.grey),
       ),
     );
   }
@@ -292,7 +355,6 @@ Widget _description(
                 ),
               ],
             ),
-
             Padding(
               padding: const EdgeInsets.all(22.0),
               child: Container(
@@ -303,61 +365,45 @@ Widget _description(
                 overflow: TextOverflow.ellipsis,
               )),
             ),
+            Container(
+              height: size.height / 15,
+              width: size.width / 3,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(25),
+              ),
+              child: GestureDetector(
+                onTap: () async {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (ctx) => MembersOverviewScreen()));
+                },
+                child: Stack(
+                  children: <Widget>[
+                    Center(
+                      child: Image.asset(
+                        "assets/images/button.png",
+                        fit: BoxFit.fitWidth,
+                      ),
+                    ),
+                    Container(
+                      height: size.height / 16,
+                      width: size.width / 3.2,
+                      child: Align(
+                          alignment: Alignment.center,
+                          child: Text(
+                            "View members",
+                            style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.white),
+                          )),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
     ),
   );
-}
-
-Widget _optionsScreen(context) {
-  return GestureDetector(
-    onTap: () {
-      Navigator.of(context)
-          .push(MaterialPageRoute(builder: (ctx) => MembersOverviewScreen()));
-    },
-    child: Stack(
-      children: <Widget>[
-        Center(
-          child: Image.asset(
-            "assets/images/button.png",
-            fit: BoxFit.fitWidth,
-            height: 60.0,
-          ),
-        ),
-        Container(
-          child: Align(
-              alignment: Alignment.center,
-              child: Text(
-                "View members here",
-                style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white),
-              )),
-        )
-      ],
-    ),
-  );
-  // var size = MediaQuery.of(context).size;
-  // return Container(
-  //   margin: EdgeInsets.only(left: 8, right: 8, top: 20),
-  //   height: MediaQuery.of(context).size.height / 7,
-  //   width: MediaQuery.of(context).size.width,
-  //   child: Card(
-  //     elevation: 0,
-  //     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-  //     child: Padding(
-  //       padding: const EdgeInsets.all(12.0),
-  //       child: Container(
-  //         height: size.height / 16,
-  //         width: size.width / 3.2,
-  //         decoration: BoxDecoration(
-  //           borderRadius: BorderRadius.circular(25),
-  //         ),
-  //         child:
-  //       ),
-  //     ),
-  //   ),
-  // );
 }

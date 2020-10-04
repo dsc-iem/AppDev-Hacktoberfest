@@ -5,7 +5,7 @@ import 'dark_theme_prefs.dart';
 class DarkThemeProvider with ChangeNotifier {
   DarkThemePreference darkThemePreference = DarkThemePreference();
 
-  bool _darkTheme=null;
+  bool _darkTheme;
 
   bool get darkTheme {
     Brightness brightness = SchedulerBinding.instance.window.platformBrightness;

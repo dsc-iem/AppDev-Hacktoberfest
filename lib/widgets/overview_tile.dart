@@ -8,7 +8,6 @@ class OverviewTile extends StatelessWidget {
   OverviewTile(this.member);
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
     return Container(
       margin: EdgeInsets.only(left: 8, right: 8, top: 20),
       height: MediaQuery.of(context).size.height / 9,
@@ -18,12 +17,17 @@ class OverviewTile extends StatelessWidget {
         elevation: 0,
         child: Center(
           child: ListTile(
-            leading: CircleAvatar(
-              
-                          child: ClipOval(
-                child: Image(image: AssetImage(member.profilePath)),
-              ),
-            ),
+            leading: Hero(
+                tag: member.name,
+                child: Container(
+                  width: 60.0,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: DecorationImage(
+                      image: AssetImage(member.profilePath),
+                    ),
+                  ),
+                )),
             title: Text(member.name),
             subtitle: Text(
               member.status,
@@ -33,8 +37,10 @@ class OverviewTile extends StatelessWidget {
                       : Colors.grey[700]),
             ),
             trailing: IconButton(
-                icon: Icon(Icons.arrow_forward_ios), onPressed: () {
-                  Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>MemberDetailScreen(member)));
+                icon: Icon(Icons.arrow_forward_ios),
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (ctx) => MemberDetailScreen(member)));
                 }),
           ),
         ),

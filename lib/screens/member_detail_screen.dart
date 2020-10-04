@@ -153,14 +153,19 @@ class MemberDetailScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              CircleAvatar(
-                radius: MediaQuery.of(context).size.width * 0.21,
-                backgroundColor: Colors.red,
-                child: CircleAvatar(
-                    radius: MediaQuery.of(context).size.width * 0.2,
-                    child: ClipOval(
-                        child: Image(image: AssetImage(member.profilePath)))),
-              ),
+              Hero(
+                  tag: member.name,
+                  child: Container(
+                    width: 160.0,
+                    height: 160.0,
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.red,width: 3.0),
+                      shape: BoxShape.circle,
+                      image:  DecorationImage(
+                        image: AssetImage(member.profilePath),
+                      ),
+                    ),
+                  )),
               Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -222,21 +227,29 @@ class MemberDetailScreen extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        member.fburl==null?SizedBox.shrink():_buildSocialButton(
-                            size: size,
-                            context: context,
-                            iconPath: 'assets/images/facebook light theme.png',
-                            url: member.fburl),
-                        member.githubUrl==null?Container():_buildSocialButton(
-                            size: size,
-                            context: context,
-                            iconPath: 'assets/images/github.png',
-                            url: member.githubUrl),
-                        member.linkedInUrl==null?Container():_buildSocialButton(
-                            size: size,
-                            context: context,
-                            iconPath: 'assets/images/linkdin light theme.png',
-                            url: member.linkedInUrl),
+                        member.fburl == null
+                            ? SizedBox.shrink()
+                            : _buildSocialButton(
+                                size: size,
+                                context: context,
+                                iconPath:
+                                    'assets/images/facebook light theme.png',
+                                url: member.fburl),
+                        member.githubUrl == null
+                            ? Container()
+                            : _buildSocialButton(
+                                size: size,
+                                context: context,
+                                iconPath: 'assets/images/github.png',
+                                url: member.githubUrl),
+                        member.linkedInUrl == null
+                            ? Container()
+                            : _buildSocialButton(
+                                size: size,
+                                context: context,
+                                iconPath:
+                                    'assets/images/linkdin light theme.png',
+                                url: member.linkedInUrl),
                       ],
                     ),
                   )
