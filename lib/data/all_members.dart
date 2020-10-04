@@ -221,7 +221,6 @@ class AllMembers {
         linkedInUrl:
             'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
         status: 'Always Learning.'),
-    
      Member(
         name: 'Ashhar Hussain',
         year: '2nd',
@@ -232,6 +231,17 @@ class AllMembers {
         linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
         status: 'seeking discomfort'),
     
+     Member(
+      name: 'Ayush Jain',
+      year: '4th',
+      department: 'Computer Science',
+      profilePath: 'assets/profiles/ayushJain.jpg',
+      aboutMe: 'Developer to be precise.',
+      fburl: 'https://www.facebook.com/aayushjain.smart/',
+      githubUrl: 'https://github.com/jainayu',
+      linkedInUrl: 'https://www.linkedin.com/in/ayush-jain-2401/',
+      status: 'Working remotely.',
+    ),
   ];
 
   static List<Member> get members {
