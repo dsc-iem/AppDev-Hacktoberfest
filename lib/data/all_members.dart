@@ -221,7 +221,18 @@ class AllMembers {
         linkedInUrl:
             'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
         status: 'Always Learning.'),
-    Member(
+    
+     Member(
+        name: 'Ashhar Hussain',
+        year: '2nd',
+        department: 'Electronics and Communication Engineering',
+        profilePath: 'assets/profiles/Ashharpassport.jpg',
+        aboutMe: 'Currently in my 2nd year of Engineering, Hghly intrested towards App Dev and Web Dev. ',
+        githubUrl: 'https://github.com/digiashhar',
+        linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
+        status: 'seeking discomfort'),
+    
+      Member(
         name: 'Jahnavi Jainwal',
         year: '2nd',
         department: 'Computer Science and Engineering',
@@ -232,15 +243,18 @@ class AllMembers {
         linkedInUrl:
         'https://www.linkedin.com/in/jahnavijainwal/',
         status: 'Working and Learning from home'),
+    
      Member(
-        name: 'Ashhar Hussain',
-        year: '2nd',
-        department: 'Electronics and Communication Engineering',
-        profilePath: 'assets/profiles/Ashharpassport.jpg',
-        aboutMe: 'Currently in my 2nd year of Engineering, Hghly intrested towards App Dev and Web Dev. ',
-        githubUrl: 'https://github.com/digiashhar',
-        linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
-        status: 'seeking discomfort'),
+      name: 'Ayush Jain',
+      year: '4th',
+      department: 'Computer Science',
+      profilePath: 'assets/profiles/ayushJain.jpg',
+      aboutMe: 'Developer to be precise.',
+      fburl: 'https://www.facebook.com/aayushjain.smart/',
+      githubUrl: 'https://github.com/jainayu',
+      linkedInUrl: 'https://www.linkedin.com/in/ayush-jain-2401/',
+      status: 'Working remotely.',
+    ),
   ];
 
   static List<Member> get members {
