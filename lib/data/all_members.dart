@@ -221,6 +221,7 @@ class AllMembers {
         linkedInUrl:
             'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
         status: 'Always Learning.'),
+    
      Member(
         name: 'Ashhar Hussain',
         year: '2nd',
@@ -230,6 +231,18 @@ class AllMembers {
         githubUrl: 'https://github.com/digiashhar',
         linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
         status: 'seeking discomfort'),
+    
+      Member(
+        name: 'Jahnavi Jainwal',
+        year: '2nd',
+        department: 'Computer Science and Engineering',
+        profilePath: 'assets/profiles/JahnaviJainwal.jpg',
+        aboutMe:'A Flutter and Web Developer. Organizer of MozNUV, Creatives and Branding Lead of DSCNUV.Still have a lot to learn <3',
+        fburl: '',
+        githubUrl: 'https://github.com/jnvee',
+        linkedInUrl:
+        'https://www.linkedin.com/in/jahnavijainwal/',
+        status: 'Working and Learning from home'),
     
      Member(
       name: 'Ayush Jain',
