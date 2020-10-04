@@ -221,6 +221,17 @@ class AllMembers {
         linkedInUrl:
             'https://www.linkedin.com/in/surya-sekhar-datta-979507196/',
         status: 'Always Learning.'),
+    
+     Member(
+        name: 'Ashhar Hussain',
+        year: '2nd',
+        department: 'Electronics and Communication Engineering',
+        profilePath: 'assets/profiles/Ashhar passport.jpg',
+        aboutMe: 'Currently in my 2nd year of Engineering, Hghly intrested towards App Dev and Web Dev. ',
+        githubUrl: 'https://github.com/digiashhar',
+        linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
+        status: 'seeking discomfort'),
+    
   ];
 
   static List<Member> get members {
