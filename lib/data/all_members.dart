@@ -232,6 +232,15 @@ class AllMembers {
         linkedInUrl:
         'https://www.linkedin.com/in/jahnavijainwal/',
         status: 'Working and Learning from home'),
+     Member(
+        name: 'Ashhar Hussain',
+        year: '2nd',
+        department: 'Electronics and Communication Engineering',
+        profilePath: 'assets/profiles/Ashharpassport.jpg',
+        aboutMe: 'Currently in my 2nd year of Engineering, Hghly intrested towards App Dev and Web Dev. ',
+        githubUrl: 'https://github.com/digiashhar',
+        linkedInUrl: ''https://www.linkedin.com/in/ashhar-hussain-15a017194/,
+        status: 'seeking discomfort'),
   ];
 
   static List<Member> get members {
