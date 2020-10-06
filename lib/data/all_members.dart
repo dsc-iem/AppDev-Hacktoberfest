@@ -252,6 +252,17 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/ayush-jain-2401/',
       status: 'Working remotely.',
     ),
+    Member(
+      name: 'Md Zaid Ansari',
+      year: '4th',
+      department: 'Information Technology',
+      profilePath: 'assets/profiles/zaid.jpg',
+      aboutMe: 'Wanna-be software developer, interested to work as an app developer',
+      fburl: 'https://www.facebook.com/razorcalhn/',
+      githubUrl: 'https://github.com/razorcalhn',
+      linkedInUrl: 'https://www.linkedin.com/in/zzaid/',
+      status: 'Currently placed with Capgemini on the post of Analyst',
+    ),
   ];
 
   static List<Member> get members {
