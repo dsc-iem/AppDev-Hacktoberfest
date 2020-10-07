@@ -252,7 +252,7 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/ayush-jain-2401/',
       status: 'Working remotely.',
     ),
-    Member(
+Member(
       name: 'Md Zaid Ansari',
       year: '4th',
       department: 'Information Technology',
@@ -263,6 +263,17 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/zzaid/',
       status: 'Currently placed with Capgemini on the post of Analyst',
     ),
+    Member(
+      name: 'Mohini Gupta',
+      year: '3rd',
+      department: 'Computer Science',
+      profilePath: 'assets/profiles/mohini.jpg',
+      aboutMe: 'Flutter Developer.',
+      fburl: 'https://www.facebook.com/mohini.gupta.9250',
+      githubUrl: 'https://github.com/Mohinig',
+      linkedInUrl: 'https://www.linkedin.com/in/mohini-gupta-0106/',
+      status: 'Work from home.',
+          ),
   ];
 
   static List<Member> get members {
