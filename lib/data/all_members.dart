@@ -274,6 +274,19 @@ Member(
       linkedInUrl: 'https://www.linkedin.com/in/mohini-gupta-0106/',
       status: 'Work from home.',
           ),
+    Member(
+      name: 'Swati Rai',
+      year: '3rd',
+      department: 'Electronics and Communication Engineering (ECE)',
+      profilePath: 'assets/profiles/SwatiRai.jpeg',
+      aboutMe: 'Machine Learning Enthusiast',
+      fburl: 'https://www.facebook.com/raiswati1999',
+      githubUrl: 'https://github.com/rai1410swati',
+      linkedInUrl: 'https://www.linkedin.com/in/swatirai1410',
+      status: 'Learning',
+    ),
+
+
   ];
 
   static List<Member> get members {
