@@ -203,7 +203,7 @@ class AllMembers {
         department: 'Computer Science',
         profilePath: 'assets/profiles/swapnanilray.jpg',
         aboutMe:
-            'Currently in my 2nd year of Engineering, I am highly inclined towards Web Dev. Recently developed a liking for CySec thus working my way out Learning Stuff!',
+            'I am an enthusiastic learner who loves coding and am looking forward to starting to contribute to Open source projects',
         fburl: 'https://www.facebook.com/profile.php?id=100010718769940',
         githubUrl: 'https://github.com/redhatpanda',
         linkedInUrl: 'https://www.linkedin.com/in/swapnanil-ray-88018318a',
@@ -284,6 +284,16 @@ Member(
       githubUrl: 'https://github.com/Mohinig',
       linkedInUrl: 'https://www.linkedin.com/in/mohini-gupta-0106/',
       status: 'Work from home.',
+          ),
+          Member(
+      name: 'Janhavi Kulkarni',
+      year: '3rd',
+      department: 'Computer Science',
+      profilePath: 'assets/profiles/janhaviK.jpg',
+      aboutMe: 'Aspiring Programmer.',
+      githubUrl: 'https://github.com/Janhavi23',
+      linkedInUrl: 'https://www.linkedin.com/in/janhavi-kulkarni-90737517a/',
+      status: 'Working...',
           ),
   ];
 
