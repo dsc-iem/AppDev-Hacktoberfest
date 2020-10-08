@@ -26,7 +26,6 @@ import 'package:dsc_devs/data/member.dart';
 
 class AllMembers {
   static List<Member> _members = [
-    
     Member(
         name: 'Rahul Kashyap',
         year: '3rd',
@@ -253,16 +252,17 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/ayush-jain-2401/',
       status: 'Working remotely.',
     ),
-Member(
+    Member(
       name: 'Md Zaid Ansari',
       year: '4th',
       department: 'Information Technology',
       profilePath: 'assets/profiles/zaid.jpg',
-      aboutMe: 'Wanna-be software developer, interested to work as an app developer',
+      aboutMe:
+          'Wanna-be software developer, interested to work as an app developer',
       fburl: 'https://www.facebook.com/razorcalhn/',
       githubUrl: 'https://github.com/razorcalhn',
       linkedInUrl: 'https://www.linkedin.com/in/zzaid/',
-      status: 'Currently placed with Capgemini on the post of Analyst',
+      status: 'Currently placed as Analyst in Capgemini',
     ),
     Member(
       name: 'Mohini Gupta',
@@ -274,20 +274,19 @@ Member(
       githubUrl: 'https://github.com/Mohinig',
       linkedInUrl: 'https://www.linkedin.com/in/mohini-gupta-0106/',
       status: 'Work from home.',
-          ),
+    ),
     Member(
         name: 'Aditya Gite',
         year: '2nd',
         department: 'Metallurgy',
-        profilePath: 'assets/profiles/aditya-gite.jpg',
+        profilePath: 'assets/profiles/aditya-gite.jpeg',
         aboutMe:
             'Student of IIT Roorkee;Swimmer; Dancer; Trying Open Source for 1st time',
         fburl: 'https://www.facebook.com/aditya.gite.9231',
         githubUrl: 'https://github.com/aditya-gite-04',
         linkedInUrl: 'https://www.linkedin.com/in/aditya-gite-14b7b3195/',
         status: 'Studying from home'),
-    
-          Member(
+    Member(
       name: 'Janhavi Kulkarni',
       year: '3rd',
       department: 'Computer Science',
@@ -296,7 +295,7 @@ Member(
       githubUrl: 'https://github.com/Janhavi23',
       linkedInUrl: 'https://www.linkedin.com/in/janhavi-kulkarni-90737517a/',
       status: 'Working...',
-          ),
+    ),
     Member(
       name: 'Nidhi Singh',
       year: '3rd',
@@ -306,7 +305,8 @@ Member(
       fburl: 'https://www.facebook.com/singh20nidhi',
       githubUrl: 'https://github.com/singh2010nidhi',
       linkedInUrl: 'https://www.linkedin.com/in/nidhisingh2010/',
-      status: 'Learning!',),
+      status: 'Learning!',
+    ),
   ];
 
   static List<Member> get members {
