@@ -68,7 +68,7 @@ Now create a branch using the `git checkout` command:
 2. Look for `assets/profiles` folder and drop your profile picture over there. It would be better if you can keep the name of your image file as
    yourname.fileformat
 
-3. Look for `lib/data/all_members.dart`. Make a copy of the form as the one created above. Comments are added over there to help you get it done. Make use of and modify the file with your details.
+3. Look for `lib/data/all_members.dart`. Make a copy of the form as the one created below. Comments are added over there to help you get it done. Make use of and modify the file with your details.
 
 | Parameters  | Info                                         |
 | ----------- | -------------------------------------------- |
