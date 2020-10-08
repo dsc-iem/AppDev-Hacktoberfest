@@ -26,17 +26,7 @@ import 'package:dsc_devs/data/member.dart';
 
 class AllMembers {
   static List<Member> _members = [
-    Member(
-        name: 'Aditya Gite',
-        year: '2nd',
-        department: 'Metallurgy',
-        profilePath: 'assets/profiles/aditya-gite.jpg',
-        aboutMe:
-            'Student of IIT Roorkee;Swimmer; Dancer; Trying Open Source for 1st time',
-        fburl: 'https://www.facebook.com/aditya.gite.9231',
-        githubUrl: 'https://github.com/aditya-gite-04',
-        linkedInUrl: 'https://www.linkedin.com/in/aditya-gite-14b7b3195/',
-        status: 'Studying from home'),
+    
     Member(
         name: 'Rahul Kashyap',
         year: '3rd',
@@ -285,6 +275,18 @@ Member(
       linkedInUrl: 'https://www.linkedin.com/in/mohini-gupta-0106/',
       status: 'Work from home.',
           ),
+    Member(
+        name: 'Aditya Gite',
+        year: '2nd',
+        department: 'Metallurgy',
+        profilePath: 'assets/profiles/aditya-gite.jpg',
+        aboutMe:
+            'Student of IIT Roorkee;Swimmer; Dancer; Trying Open Source for 1st time',
+        fburl: 'https://www.facebook.com/aditya.gite.9231',
+        githubUrl: 'https://github.com/aditya-gite-04',
+        linkedInUrl: 'https://www.linkedin.com/in/aditya-gite-14b7b3195/',
+        status: 'Studying from home'),
+    
           Member(
       name: 'Janhavi Kulkarni',
       year: '3rd',
@@ -295,6 +297,16 @@ Member(
       linkedInUrl: 'https://www.linkedin.com/in/janhavi-kulkarni-90737517a/',
       status: 'Working...',
           ),
+    Member(
+      name: 'Nidhi Singh',
+      year: '3rd',
+      department: 'Information Technology',
+      profilePath: 'assets/profiles/nidhisingh.jpg',
+      aboutMe: 'Data Science Enthusiast',
+      fburl: 'https://www.facebook.com/singh20nidhi',
+      githubUrl: 'https://github.com/singh2010nidhi',
+      linkedInUrl: 'https://www.linkedin.com/in/nidhisingh2010/',
+      status: 'Learning!',),
   ];
 
   static List<Member> get members {
