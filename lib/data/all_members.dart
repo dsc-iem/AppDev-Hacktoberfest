@@ -316,6 +316,16 @@ class AllMembers {
       githubUrl: 'https://github.com/rai1410swati',
       linkedInUrl: 'https://www.linkedin.com/in/swatirai1410',
       status: 'Learning',),
+    Member(
+      name: 'Arjun Sinha',
+      year: '3rd',
+      department: 'Computer Science',
+      profilePath: 'assets/profiles/arjunsinha.jpg',
+      aboutMe: 'Flutter Developer',
+      fburl: 'facebook.com/arjunsinha.dev',
+      githubUrl: 'https://github.com/ryuukenshi',
+      linkedInUrl: 'https://www.linkedin.com/in/arjun-sinha-366a79192/',
+      status: 'Developing',),
   ];
 
   static List<Member> get members {
