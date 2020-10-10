@@ -14,7 +14,7 @@ class Styles {
       hoverColor: isDarkTheme ? Color(0xff3A3A3B) : Color(0xff4285F4),
       focusColor: isDarkTheme ? Color(0xff0B2512) : Color(0xffA8DAB5),
       textTheme: Theme.of(context).textTheme.apply(
-            fontFamily: 'OpenSans',
+            fontFamily: 'GoogleSans',
             displayColor: isDarkTheme ? Colors.white:Colors.black,
             bodyColor:  isDarkTheme ? Colors.white:Colors.black
           ),

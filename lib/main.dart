@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
       child: Consumer<DarkThemeProvider>(
         builder: (BuildContext context, value, Widget child) {
           return MaterialApp(
-              title: 'DSC IEM DEVS',
+              title: 'DSC DEVS',
               debugShowCheckedModeBanner: false,
               theme: Styles.themeData(themeChangeProvider.darkTheme, context),
               home: HomeScreen());
