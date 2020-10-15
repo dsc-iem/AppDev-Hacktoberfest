@@ -275,12 +275,12 @@ class _HomeScreenState extends State<HomeScreen>
                     context: context,
                     icon: FontAwesomeIcons.linkedinIn,
                     url: 'https://www.linkedin.com/company/dsciem/'),
-                    _buildSocialButton(
+                _buildSocialButton(
                     size: size,
                     context: context,
                     icon: FontAwesomeIcons.instagram,
                     url: 'https://www.instagram.com/dsc_iem/'),
-                    _buildSocialButton(
+                _buildSocialButton(
                     size: size,
                     context: context,
                     icon: FontAwesomeIcons.code,
@@ -301,8 +301,7 @@ class _HomeScreenState extends State<HomeScreen>
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(40),
             color: Theme.of(context).buttonColor),
-        child: Icon(icon,
-        color: Colors.grey),
+        child: Icon(icon, color: Colors.grey),
       ),
     );
   }
