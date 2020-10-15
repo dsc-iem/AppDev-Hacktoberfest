@@ -340,6 +340,17 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/arjun-sinha-366a79192/',
       status: 'Developing',
     ),
+    Member(
+      name: 'Aman Srivastava',
+      year: '3rd',
+      department: 'Information Technology',
+      profilePath: 'assets/profiles/amanSrivastava.jpg',
+      aboutMe: 'Flutter Enthusiast',
+      fburl: 'https://www.facebook.com/aman121098/',
+      githubUrl: 'https://github.com/aman1210',
+      linkedInUrl: 'https://www.linkedin.com/in/aman-srivastava-973297199/',
+      status: 'Learning :D',
+    ),
   ];
 
   static List<Member> get members {
