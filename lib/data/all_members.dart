@@ -340,6 +340,17 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/arjun-sinha-366a79192/',
       status: 'Developing',
     ),
+    Member(
+      name: 'Jaya',
+      year: '3rd',
+      department: 'Computer Technical',
+      profilePath: 'assets/profiles/jaya.png',
+      aboutMe: 'Mobile Developer',
+      fburl: 'facebook.com/jaya',
+      githubUrl: 'https://github.com/jaya',
+      linkedInUrl: 'https://www.linkedin.com/in/jaya/',
+      status: 'WFH',
+    ),
   ];
 
   static List<Member> get members {
