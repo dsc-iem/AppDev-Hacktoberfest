@@ -253,17 +253,16 @@ class AllMembers {
       status: 'Working remotely.',
     ),
     Member(
-      name: 'Md Zaid Ansari',
-      year: '4th',
-      department: 'Information Technology',
-      profilePath: 'assets/profiles/zaid.jpg',
-      aboutMe:
-          'Wanna-be software developer, interested to work as an app developer',
-      fburl: 'https://www.facebook.com/razorcalhn/',
-      githubUrl: 'https://github.com/razorcalhn',
-      linkedInUrl: 'https://www.linkedin.com/in/zzaid/',
-      status: 'Currently placed as Analyst in Capgemini'
-    ),
+        name: 'Md Zaid Ansari',
+        year: '4th',
+        department: 'Information Technology',
+        profilePath: 'assets/profiles/zaid.jpg',
+        aboutMe:
+            'Wanna-be software developer, interested to work as an app developer',
+        fburl: 'https://www.facebook.com/razorcalhn/',
+        githubUrl: 'https://github.com/razorcalhn',
+        linkedInUrl: 'https://www.linkedin.com/in/zzaid/',
+        status: 'Currently placed as Analyst in Capgemini'),
     Member(
       name: 'Mohini Gupta',
       year: '3rd',
@@ -275,7 +274,19 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/mohini-gupta-0106/',
       status: 'Work from home.',
     ),
-     Member(
+    Member(
+      name: 'Anubhav Gupta',
+      year: '3rd',
+      department: 'Computer Science & Engineering',
+      profilePath: 'assets/profiles/anubhav.jpg',
+      aboutMe:
+          'Flutter Developer intern at Aeologic Technologies, 3rd year college student pursuing BTech in Computer Science & Engineering at Lovely Professional University.',
+      fburl: '',
+      githubUrl: 'https://github.com/anubhav11803451',
+      linkedInUrl: 'https://www.linkedin.com/in/anubhav-gupta-307a3a16b/',
+      status: 'Fluttering..❤',
+    ),
+    Member(
         name: 'Aditya Gite',
         year: '2nd',
         department: 'Metallurgy',
@@ -305,7 +316,8 @@ class AllMembers {
       fburl: 'https://www.facebook.com/singh20nidhi',
       githubUrl: 'https://github.com/singh2010nidhi',
       linkedInUrl: 'https://www.linkedin.com/in/nidhisingh2010/',
-      status: 'Learning!',),
+      status: 'Learning!',
+    ),
     Member(
       name: 'Swati Rai',
       year: '3rd',
@@ -315,7 +327,8 @@ class AllMembers {
       fburl: 'https://www.facebook.com/raiswati1999',
       githubUrl: 'https://github.com/rai1410swati',
       linkedInUrl: 'https://www.linkedin.com/in/swatirai1410',
-      status: 'Learning',),
+      status: 'Learning',
+    ),
     Member(
       name: 'Arjun Sinha',
       year: '3rd',
@@ -325,7 +338,8 @@ class AllMembers {
       fburl: 'facebook.com/arjunsinha.dev',
       githubUrl: 'https://github.com/ryuukenshi',
       linkedInUrl: 'https://www.linkedin.com/in/arjun-sinha-366a79192/',
-      status: 'Developing',),
+      status: 'Developing',
+    ),
   ];
 
   static List<Member> get members {
