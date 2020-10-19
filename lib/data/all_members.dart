@@ -362,6 +362,16 @@ class AllMembers {
       linkedInUrl: 'https://www.linkedin.com/in/jaya/',
       status: 'WFH',
     ),
+    Member(
+        name: 'Rishabh Negi',
+        year: '2rd',
+        department: 'Computer Science and Engineering',
+        profilePath: 'assets/profiles/RishabhNegi.jpg',
+        aboutMe: 'I am Flutter developer. I am passionate about learning flutter and cloud',
+        fburl: 'https://www.facebook.com/rishabh0416/',
+        githubUrl: 'https://github.com/Rishabh-Negi',
+        linkedInUrl: 'https://www.linkedin.com/in/rishabh-negi-6413b91b4/',
+        status: 'Working on new projects'),
   ];
 
   static List<Member> get members {
