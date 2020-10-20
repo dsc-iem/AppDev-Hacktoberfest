@@ -372,6 +372,16 @@ class AllMembers {
         githubUrl: 'https://github.com/Rishabh-Negi',
         linkedInUrl: 'https://www.linkedin.com/in/rishabh-negi-6413b91b4/',
         status: 'Working on new projects'),
+    Member(
+        name: 'Farhan Khan',
+        year: '3rd',
+        department: 'Electrical Engineering',
+        profilePath: 'assets/profiles/Farhan.jpg',
+        aboutMe: 'Data Science Enthusiast. Currently Working with AI , ML , CV , DL',
+        fburl: 'https://www.facebook.com/khanfarhanh/',
+        githubUrl: 'https://github.com/khanfarhan10',
+        linkedInUrl: 'https://www.linkedin.com/in/fkpro/',
+        status: 'Playing Visual Studio Code and Chess'),
   ];
 
   static List<Member> get members {
