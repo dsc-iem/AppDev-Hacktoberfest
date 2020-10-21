@@ -382,6 +382,16 @@ class AllMembers {
         githubUrl: 'https://github.com/khanfarhan10',
         linkedInUrl: 'https://www.linkedin.com/in/fkpro/',
         status: 'Playing Visual Studio Code and Chess'),
+    Member(
+        name: 'Tosan Krisna',
+        year: '2nd',
+        department: 'Information Science',
+        profilePath: 'assets/profiles/tosan.png',
+        aboutMe: 'I'm a Front end enthusiast',
+        fburl: 'https://www.facebook.com/tosankrisna/',
+        githubUrl: 'https://github.com/tosankrisna',
+        linkedInUrl: 'https://www.linkedin.com/in/tosankrisna/',
+        status: 'WFH'),
   ];
 
   static List<Member> get members {
