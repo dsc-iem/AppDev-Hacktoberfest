@@ -402,6 +402,16 @@ class AllMembers {
         githubUrl: 'https://github.com/aryan29',
         linkedInUrl: 'https://www.linkedin.com/in/aryan-khandelwal29/',
         status: 'Busy'),
+    Member(
+        name: 'Ajay Bairwa',
+        year: '4th',
+        department: 'Electrical Engineering',
+        profilePath: 'assets/profiles/AjayBairwa.jpg',
+        aboutMe: 'Final year student at CIT Abu Road and I use my time to learn sometime new, exploring the latest technology ;) ;)',
+        fburl: 'https://www.facebook.com/akajaybairwa/',
+        githubUrl: 'https://github.com/bairwa25',
+        linkedInUrl: 'https://www.linkedin.com/in/ajay-bairwa/',
+        status: 'Learner'),
   ];
 
   static List<Member> get members {
