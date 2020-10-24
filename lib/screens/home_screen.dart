@@ -41,6 +41,7 @@ class _HomeScreenState extends State<HomeScreen>
     var size = MediaQuery.of(context).size;
     return cirAn
         ? CircularRevealAnimation(
+            // ignore: deprecated_member_use
             center: Offset(size.height / 15, size.width / 3.5),
             animation: animation,
             child: homeBody(

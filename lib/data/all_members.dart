@@ -387,7 +387,7 @@ class AllMembers {
         year: '2nd',
         department: 'Information Science',
         profilePath: 'assets/profiles/tosan.png',
-        aboutMe: 'I'm a Front end enthusiast',
+        aboutMe: "I'm a Front end enthusiast",
         fburl: 'https://www.facebook.com/tosankrisna/',
         githubUrl: 'https://github.com/tosankrisna',
         linkedInUrl: 'https://www.linkedin.com/in/tosankrisna/',
@@ -402,6 +402,15 @@ class AllMembers {
         githubUrl: 'https://github.com/aryan29',
         linkedInUrl: 'https://www.linkedin.com/in/aryan-khandelwal29/',
         status: 'Busy'),
+    Member(name: 'Shruti Jawale',
+        year: '2nd',
+        department: 'Information Technology',
+        profilePath: 'assets/profiles/shruti.png',
+        aboutMe: '2nd year IT student at Vishwakarma Institute of Information Technology',
+        fburl: "don't have a fb account",
+        githubUrl: 'https://github.com/ShrutiJ-01',
+        linkedInUrl: 'https://www.linkedin.com/in/shruti-jawale-512912199/',
+        status: 'Enjoying Flutter dev!')
   ];
 
   static List<Member> get members {
