@@ -402,6 +402,16 @@ class AllMembers {
         githubUrl: 'https://github.com/aryan29',
         linkedInUrl: 'https://www.linkedin.com/in/aryan-khandelwal29/',
         status: 'Busy'),
+    Member(
+        name: 'Gananta Made',
+        year: '2nd',
+        department: 'Information Science',
+        profilePath: 'assets/profiles/gananta.jpg',
+        aboutMe: 'Students from STMIK Primakra',
+        fburl: 'https://www.facebook.com/made.gananta',
+        githubUrl: 'https://github.com/gananta65',
+        linkedInUrl: 'https://www.linkedin.com/in/gananta-made/',
+        status: 'SFH'),
   ];
 
   static List<Member> get members {
