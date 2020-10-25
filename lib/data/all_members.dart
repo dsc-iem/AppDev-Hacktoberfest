@@ -367,7 +367,8 @@ class AllMembers {
         year: '2rd',
         department: 'Computer Science and Engineering',
         profilePath: 'assets/profiles/RishabhNegi.jpg',
-        aboutMe: 'I am Flutter developer. I am passionate about learning flutter and cloud',
+        aboutMe:
+            'I am Flutter developer. I am passionate about learning flutter and cloud',
         fburl: 'https://www.facebook.com/rishabh0416/',
         githubUrl: 'https://github.com/Rishabh-Negi',
         linkedInUrl: 'https://www.linkedin.com/in/rishabh-negi-6413b91b4/',
@@ -377,7 +378,8 @@ class AllMembers {
         year: '3rd',
         department: 'Electrical Engineering',
         profilePath: 'assets/profiles/Farhan.jpg',
-        aboutMe: 'Data Science Enthusiast. Currently Working with AI , ML , CV , DL',
+        aboutMe:
+            'Data Science Enthusiast. Currently Working with AI , ML , CV , DL',
         fburl: 'https://www.facebook.com/khanfarhanh/',
         githubUrl: 'https://github.com/khanfarhan10',
         linkedInUrl: 'https://www.linkedin.com/in/fkpro/',
@@ -387,7 +389,7 @@ class AllMembers {
         year: '2nd',
         department: 'Information Science',
         profilePath: 'assets/profiles/tosan.png',
-        aboutMe: 'I'm a Front end enthusiast',
+        aboutMe: 'I m a Front end enthusiast',
         fburl: 'https://www.facebook.com/tosankrisna/',
         githubUrl: 'https://github.com/tosankrisna',
         linkedInUrl: 'https://www.linkedin.com/in/tosankrisna/',
@@ -402,6 +404,16 @@ class AllMembers {
         githubUrl: 'https://github.com/aryan29',
         linkedInUrl: 'https://www.linkedin.com/in/aryan-khandelwal29/',
         status: 'Busy'),
+    Member(
+        name: 'Matheus Cavalcante',
+        year: '2nd',
+        department: 'Information Technology',
+        profilePath: 'assets/profiles/matheusc.jpg',
+        aboutMe: 'Flutter enthusiast',
+        fburl: 'https://www.facebook.com/matheus.cavalcante.75054/',
+        githubUrl: 'https://github.com/matheusc3m',
+        linkedInUrl: 'https://www.linkedin.com/in/matheus3m/',
+        status: 'WFH'),
   ];
 
   static List<Member> get members {
