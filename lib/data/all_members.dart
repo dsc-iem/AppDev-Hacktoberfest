@@ -444,6 +444,17 @@ class AllMembers {
         githubUrl: 'https://github.com/matheusc3m',
         linkedInUrl: 'https://www.linkedin.com/in/matheus3m/',
         status: 'WFH'),
+    
+    Member(
+        name: 'Nisha',
+        year: '2nd',
+        department: 'Information System',
+        profilePath: 'assets/profiles/nisha.jpg',
+        aboutMe: 'PHP enthusiast',
+        fburl: 'https://www.facebook.com/nishaa73/',
+        githubUrl: 'https://github.com/nishaa73',
+        linkedInUrl: 'https://www.linkedin.com/in/nishaa73/',
+        status: 'SFH')
   ];
 
   static List<Member> get members {
