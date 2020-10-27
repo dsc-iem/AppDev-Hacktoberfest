@@ -455,6 +455,16 @@ class AllMembers {
         githubUrl: 'https://github.com/matheusc3m',
         linkedInUrl: 'https://www.linkedin.com/in/matheus3m/',
         status: 'WFH'),
+    Member(
+        name: 'Juniper',
+        year: '2nd',
+        department: 'Information System',
+        profilePath: 'assets/profiles/laughface.jpg',
+        aboutMe: 'Student From Myanmar University',
+        fburl: 'https://www.facebook.com/laughface809',
+        githubUrl: 'https://github.com/laughface809',
+        linkedInUrl: 'https://www.linkedin.com/in/laughface809',
+        status: 'SFH'),
   ];
 
   static List<Member> get members {
