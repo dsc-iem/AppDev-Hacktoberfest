@@ -407,13 +407,13 @@ class AllMembers {
         name: 'Shubham Devrani',
         year: '2nd',
         department: 'Computer Science & Engineering',
-        profilePath: 'assets/profiles/shubham1121.jpeg',
+        profilePath: 'assets/profiles/shubham1121.jpg',
         aboutMe:
             'I am Flutter App Developer and a competitive programmer too. I am passionate about learning flutter more and concepts included in competitive programming.',
         fburl: 'https://www.facebook.com/shubham.devrani.965',
         githubUrl: 'https://github.com/shubham1121',
         linkedInUrl: 'https://www.linkedin.com/in/shubham-devrani-482819150/',
-        status: 'Never Ever Underestimate the Power of a User!'),
+        status: 'Just a User!'),
     Member(
         name: 'Ajay Bairwa',
         year: '4th',
@@ -460,12 +460,22 @@ class AllMembers {
         name: 'Juniper',
         year: '2nd',
         department: 'Information System',
-        profilePath: 'assets/profiles/laughface.jpg',
+        profilePath: 'assets/profiles/laughface.png',
         aboutMe: 'Student From Myanmar University',
         fburl: 'https://www.facebook.com/laughface809',
         githubUrl: 'https://github.com/laughface809',
         linkedInUrl: 'https://www.linkedin.com/in/laughface809',
         status: 'SFH'),
+    Member(
+        name: 'Nisha',
+        year: '2nd',
+        department: 'Information System',
+        profilePath: 'assets/profiles/nisha.jpeg',
+        aboutMe: 'PHP enthusiast',
+        fburl: 'https://www.facebook.com/nishaa73/',
+        githubUrl: 'https://github.com/nishaa73',
+        linkedInUrl: 'https://www.linkedin.com/in/nishaa73/',
+        status: 'SFH')
   ];
 
   static List<Member> get members {
