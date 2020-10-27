@@ -405,6 +405,17 @@ class AllMembers {
         linkedInUrl: 'https://www.linkedin.com/in/aryan-khandelwal29/',
         status: 'Busy'),
     Member(
+        name: 'Shubham Devrani',
+        year: '2nd',
+        department: 'Computer Science & Engineering',
+        profilePath: 'assets/profiles/shubham1121.jpeg',
+        aboutMe:
+            'I am Flutter App Developer and a competitive programmer too. I am passionate about learning flutter more and concepts included in competitive programming.',
+        fburl: 'https://www.facebook.com/shubham.devrani.965',
+        githubUrl: 'https://github.com/shubham1121',
+        linkedInUrl: 'https://www.linkedin.com/in/shubham-devrani-482819150/',
+        status: 'Never Ever Underestimate the Power of a User!'),
+    Member(
         name: 'Ajay Bairwa',
         year: '4th',
         department: 'Electrical Engineering',
@@ -444,7 +455,17 @@ class AllMembers {
         githubUrl: 'https://github.com/matheusc3m',
         linkedInUrl: 'https://www.linkedin.com/in/matheus3m/',
         status: 'WFH'),
-    
+    Member(
+        name: 'Juniper',
+        year: '2nd',
+        department: 'Information System',
+        profilePath: 'assets/profiles/laughface.jpg',
+        aboutMe: 'Student From Myanmar University',
+        fburl: 'https://www.facebook.com/laughface809',
+        githubUrl: 'https://github.com/laughface809',
+        linkedInUrl: 'https://www.linkedin.com/in/laughface809',
+        status: 'SFH'),
+        
     Member(
         name: 'Nisha',
         year: '2nd',
