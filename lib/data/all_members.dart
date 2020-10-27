@@ -281,7 +281,6 @@ class AllMembers {
       profilePath: 'assets/profiles/anubhav.jpg',
       aboutMe:
           'Flutter Developer intern at Aeologic Technologies, 3rd year college student pursuing BTech in Computer Science & Engineering at Lovely Professional University.',
-      fburl: '',
       githubUrl: 'https://github.com/anubhav11803451',
       linkedInUrl: 'https://www.linkedin.com/in/anubhav-gupta-307a3a16b/',
       status: 'Fluttering..❤',
@@ -420,22 +419,24 @@ class AllMembers {
         year: '4th',
         department: 'Electrical Engineering',
         profilePath: 'assets/profiles/AjayBairwa.jpg',
-        aboutMe: 'Final year student at CIT Abu Road and I use my time to learn sometime new, exploring the latest technology ;) ;)',
+        aboutMe:
+            'Final year student at CIT Abu Road and I use my time to learn sometime new, exploring the latest technology ;) ;)',
         fburl: 'https://www.facebook.com/akajaybairwa/',
         githubUrl: 'https://github.com/bairwa25',
         linkedInUrl: 'https://www.linkedin.com/in/ajay-bairwa/',
         status: 'Learner'),
-     Member(
+    Member(
         name: 'Shruti Jawale',
         year: '2nd',
         department: 'Information Technology',
         profilePath: 'assets/profiles/shruti.png',
-        aboutMe: '2nd year IT student at Vishwakarma Institute of Information Technology',
+        aboutMe:
+            '2nd year IT student at Vishwakarma Institute of Information Technology',
         fburl: "don't have a fb account",
         githubUrl: 'https://github.com/ShrutiJ-01',
         linkedInUrl: 'https://www.linkedin.com/in/shruti-jawale-512912199/',
         status: 'Enjoying Flutter dev!'),
-      Member(
+    Member(
         name: 'Gananta Made',
         year: '2nd',
         department: 'Information Science',
