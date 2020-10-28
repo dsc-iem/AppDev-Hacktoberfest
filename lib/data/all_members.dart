@@ -475,7 +475,17 @@ class AllMembers {
         fburl: 'https://www.facebook.com/nishaa73/',
         githubUrl: 'https://github.com/nishaa73',
         linkedInUrl: 'https://www.linkedin.com/in/nishaa73/',
-        status: 'SFH')
+        status: 'SFH'),
+    Member(
+        name: 'Sunday Malgwi',
+        year: 'final',
+        department: 'Computer Science',
+        profilePath: 'assets/profiles/malgwi.JPG',
+        aboutMe: 'Dart enthusiast',
+        fburl: 'https://www.facebook.com/malgwisunday/',
+        githubUrl: 'https://github.com/malgwi',
+        linkedInUrl: 'linkedin.com/in/sunday-malgwi-aa0405129',
+        status: 'Enjoying Flutter')
   ];
 
   static List<Member> get members {
