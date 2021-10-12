@@ -485,7 +485,18 @@ class AllMembers {
         fburl: 'https://www.facebook.com/malgwisunday/',
         githubUrl: 'https://github.com/malgwi',
         linkedInUrl: 'linkedin.com/in/sunday-malgwi-aa0405129',
-        status: 'Enjoying Flutter')
+        status: 'Enjoying Flutter'),
+    Member(
+        name: 'Nimish Bajaj',
+        year: '3rd year',
+        department: 'Information Technology',
+        profilePath: '',
+        aboutMe: 'Student from IIIT Bhopal',
+        fburl: 'https://www.facebook.com/nimish.bajaj2',
+        githubUrl: 'https://github.com/Nimish2000',
+        linkedInUrl: 'https://www.linkedin.com/in/nimish-bajaj-595104214/',
+        status: 'WFH',
+    ),
   ];
 
   static List<Member> get members {
