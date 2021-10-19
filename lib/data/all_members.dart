@@ -497,6 +497,19 @@ class AllMembers {
         linkedInUrl: 'https://www.linkedin.com/in/nimish-bajaj-595104214/',
         status: 'WFH',
     ),
+
+    
+    Member(
+        name: 'Debarghya Datta',
+        year: '3rd',
+        department: 'CSE',
+        profilePath: 'assets/profiles/debarghyadatta.jpg',
+        aboutMe:
+            'Inquisitive Dev guy',
+        fburl: 'https://www.facebook.com/d9datta/',
+        githubUrl: 'https://github.com/geekHead-DD',
+        linkedInUrl: 'https://www.linkedin.com/in/debarghya-datta-383b341a5/',
+        status: 'Learning from home'),
   ];
 
   static List<Member> get members {
